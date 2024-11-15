@@ -61,6 +61,18 @@ main {
   max-width: 75%;
   border: solid 0.25rem #565553;
   background-color: #212121;
+  border-radius: 15px;
+  padding: 0.75%;
+}
+
+.video1container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+p {
+  margin: 0;
 }
 
 h1 {
