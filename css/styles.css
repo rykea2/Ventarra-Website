@@ -3,9 +3,10 @@
 }
 
 body {
+  padding-top: 10rem;
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: black;
+  color: white;
   background-color: white;
 }
 
@@ -50,6 +51,16 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.maincontainer {
+  max-width: 75%;
+  border: solid 0.25rem #565553;
+  background-color: #212121;
 }
 
 h1 {
