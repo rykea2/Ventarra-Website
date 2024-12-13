@@ -52,11 +52,52 @@ main {
 
 .maincontainer {
   max-width: 75%;
+  min-width: 75%;
   border: solid 0.25rem #565553;
   background-color: #212121;
   border-radius: 15px;
   padding: 0.75%;
   box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secondcontainer {
+  max-width: 75%;
+  min-width: 75%;
+  border: solid 0.25rem #565553;
+  background-color: #212121;
+  border-radius: 15px;
+  padding: 0.75%;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutbox {
+  display: flex;
+  justify-content: right;
+  gap: 10rem;
+}
+
+.aboutbox img {
+  max-height: 18rem;
+  gap: 10rem;
+}
+
+.thirdcontainer {
+  max-width: 75%;
+  min-width: 75%;
+  border: solid 0.25rem #565553;
+  background-color: #212121;
+  border-radius: 15px;
+  padding: 0.75%;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.monitizationimgbox {
+  display: flex;
+  justify-content: left;
+}
+
+.monitizationimgbox img {
+  max-height: 20rem;
 }
 
 .video1container {
@@ -72,6 +113,7 @@ p {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  font-family: URW Chancery L, cursive;
 }
 
 body::-webkit-scrollbar {
