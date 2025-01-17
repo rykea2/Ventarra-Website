@@ -1,5 +1,5 @@
-document.getElementById("mybtn").addEventListener("click", demotoggle);
+document.getElementById("myBtn").addEventListener("click", myFunction);
 
-function demotoggle() {
-    document.getElementsById("colorchange").classList.toggle("democolortoggle");
+function myFunction() {
+    document.getElementById("ButtonColorChange").classList.toggle("myStyle");
 }
