@@ -214,3 +214,7 @@ footer {
 .serverIp img:hover {
   transform: scale(1.025);
 }
+
+.democolortoggle {
+  background-color: coral;
+}
