@@ -185,9 +185,13 @@ iframe {
   height: 45%;
 }
 
+.headerbox {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
-  height: 20rem;
-  padding-bottom: 5rem;
+  max-width: 35%;
 }
 
 footer {
@@ -198,21 +202,6 @@ footer {
   font-size: 14px;
   border-radius: 15px;
   border: solid 0.25rem #565553;
-}
-
-.serverIp img {
-  height: 6rem;
-  left: 16rem;
-  top: -0.5rem;
-  cursor: pointer;
-  position: fixed;
-  overflow: hidden;
-  transition: transform 0.4s;
-  z-index: 1;
-}
-
-.serverIp img:hover {
-  transform: scale(1.025);
 }
 
 .myStyle {
