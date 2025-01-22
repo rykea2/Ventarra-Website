@@ -204,6 +204,9 @@ footer {
   border: solid 0.25rem #565553;
 }
 
+.pagestyle {
+  background-color: blue;
+}
 .myStyle {
   background-color: coral;
 }
