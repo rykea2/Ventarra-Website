@@ -5,12 +5,12 @@ const TextShift = document.querySelector("#TextShift");
 const TextEmpty = document.querySelector("#TextEmpty");
 let inputBox = document.querySelector("#inputBox");
 let TextDisplay = document.querySelector("#TextDisplay");
-const TextList = [];
+const TextList = ("Deez Nutz", "Updog", "Ligma");
 
 TextPush.addEventListener("click", function () {
-    TextList.push();
+    TextList.push(inputBox.value);
     TextDisplay.textContent = TextList;
-
+    
 });
 
 TextPop.addEventListener("click", function () {
