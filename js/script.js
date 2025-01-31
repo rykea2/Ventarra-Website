@@ -8,31 +8,27 @@ let TextDisplay = document.querySelector("#TextDisplay");
 const TextList = [];
 
 TextPush.addEventListener("click", function () {
-    TextList.push(inputBox.value);
+    TextList.push();
     TextDisplay.textContent = TextList;
 
-    inputBox.value = "";
 });
 
 TextPop.addEventListener("click", function () {
-    TextList.pop(inputBox.value);
+    TextList.pop();
     TextDisplay.textContent = TextList;
 
-    inputBox.value = "";
 });
 
 TextUnshift.addEventListener("click", function () {
-    TextList.unshift(inputBox.value);
+    TextList.unshift();
     TextDisplay.textContent = TextList;
 
-    inputBox.value = "";
 });
 
 TextShift.addEventListener("click", function () {
-    TextList.shift(inputBox.value);
+    TextList.shift();
     TextDisplay.textContent = TextList;
 
-    inputBox.value = "";
 });
 
 TextEmpty.addEventListener("click", function () {
