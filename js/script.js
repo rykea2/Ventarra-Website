@@ -34,5 +34,6 @@ TextShift.addEventListener("click", function () {
 TextEmpty.addEventListener("click", function () {
     TextList = [];
     alert("Text Emptied");
+    TextDisplay.textContent = TextList;
     
 });
