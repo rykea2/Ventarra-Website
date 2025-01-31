@@ -1,8 +1,8 @@
-
 const TextPush = document.querySelector("#TextPush");
 const TextPop = document.querySelector("#TextPop");
 const TextUnshift = document.querySelector("#TextUnshift");
 const TextShift = document.querySelector("#TextShift");
+const TextEmpty = document.querySelector("#TextEmpty");
 
 const TextList = [];
 
@@ -44,4 +44,9 @@ TextShift.addEventListener("click", function () {
     TextDisplay.textContent = TextList;
 
     inputBox.value = "";
+});
+
+TextEmpty.addEventListener("click", function () {
+    alert("Text Emptied");
+    TextList.clear();
 });
