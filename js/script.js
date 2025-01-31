@@ -7,9 +7,12 @@ let inputBox = document.querySelector("#inputBox");
 let TextDisplay = document.querySelector("#TextDisplay");
 let TextList = ["Deez Nutz", "Updog", "Ligma"];
 
+
 TextPush.addEventListener("click", function () {
+    if (!inputBox.value) {alert("please write something")}
+    else {
     TextList.push(inputBox.value);
-    TextDisplay.textContent = TextList;
+    TextDisplay.textContent = TextList;}
 
 });
 
@@ -20,8 +23,10 @@ TextPop.addEventListener("click", function () {
 });
 
 TextUnshift.addEventListener("click", function () {
+    if (!inputBox.value) {alert("please write something")}
+    else {
     TextList.unshift(inputBox.value);
-    TextDisplay.textContent = TextList;
+    TextDisplay.textContent = TextList;}
 
 });
 
